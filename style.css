@@ -120,6 +120,7 @@ textarea {
 
 .button-area {
   margin-top: 80px;
+  margin-bottom: 20px;
   text-align: right;
 }
 
@@ -135,3 +136,4 @@ input[type="submit"] {
   box-shadow: 1px 1px 3px black;
   cursor: pointer;
 }
+
