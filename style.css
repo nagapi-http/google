@@ -101,7 +101,7 @@ form {
   width: 300px;
 }
 
-input[type="text"],
+input[type="password"],
 input[type="email"] {
   border: solid 3px rgb(168 199 250);
   padding: 10px;
