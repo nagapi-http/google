@@ -84,6 +84,11 @@ form {
   color: rgb(76, 121, 189);
 }
 
+.pass {
+  padding-left: 0.1px;
+  color: rgb(76, 121, 189);
+}
+
 .label {
   float: left;
   margin-right: 20px;
@@ -119,9 +124,9 @@ textarea {
 }
 
 input[type="submit"] {
-  background: rgb(168 199 250);
+  background: rgb(42, 113, 226);
   border: none;
-  color: rgb(76, 121, 189);
+  color: rgb(235, 251, 255);
   font-size: 17px;
   font-weight: bold;
   padding: 10px 20px;
@@ -131,16 +136,3 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="reset"] {
-  background: #837a7a;
-  border: none;
-  color: white;
-  font-size: 17px;
-  font-weight: bold;
-  padding: 10px 20px;
-  margin: 0 5px;
-  border-radius: 5px;
-  box-shadow: 1px 1px 3px black;
-
-  cursor: pointer;
-}
