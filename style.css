@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.contact-form {
+  border: 1px solid #aaa;
+  padding: 50px 30px;
+}
+
+.title {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+form {
+  width: 460px;
+  margin: 0 auto;
+  
+}
+
+.item {
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 80px;
+}
+
+.login {
+  margin-bottom: 40px;
+  margin-top: -50px;
+  padding-left: 130px;
+}
+
+.account {
+  overflow: hidden;
+  margin-bottom: 40px;
+  margin-top: -20px;
+  padding-left: 40px;
+}
+
+.google {
+  overflow: hidden;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  padding-left: 170px;
+}
+
+.item2 {
+  overflow: hidden;
+  padding-left: 80px;
+}
+
+.gest {
+  overflow: hidden;
+  margin-top: 50px;
+  padding-left: 0px;
+}
+
+.create {
+  overflow: hidden;
+  margin-top: -40px;
+  padding-left: 30px;
+  color: rgb(76, 121, 189);
+}
+
+.syousai {
+  color: rgb(76, 121, 189);
+}
+
+.forget {
+  padding-left: 0px;
+  color: rgb(76, 121, 189);
+}
+
+.label {
+  float: left;
+  margin-right: 20px;
+  width: 135px;
+  padding-left: 10px;
+}
+
+.inputs {
+  float: left;
+  width: 300px;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: solid 3px rgb(168 199 250);
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+textarea {
+  border: solid 1px #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  height: 160px;
+  width: 300px;
+  font-size: 15px;
+}
+
+.button-area {
+  margin-top: 80px;
+  text-align: right;
+}
+
+input[type="submit"] {
+  background: rgb(168 199 250);
+  border: none;
+  color: rgb(76, 121, 189);
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px black;
+  cursor: pointer;
+}
+
+input[type="reset"] {
+  background: #837a7a;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px black;
+
+  cursor: pointer;
+}
